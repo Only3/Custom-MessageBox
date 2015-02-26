@@ -7,7 +7,8 @@
 
         Sub New()
             Size = New Size(300, 150)
-            MinimizeBox = False : MaximizeBox = False
+            MinimizeBox = False
+            MaximizeBox = False
             FormBorderStyle = FormBorderStyle.FixedDialog
             StartPosition = FormStartPosition.CenterParent
             AddHandler Btn.Click, Sub() DialogResult = DialogResult.OK
